@@ -497,6 +497,74 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-subscribe-panel {
+  width: 453px;
+  height: 80px;
+}
+
+.footer-subscribe-panel .text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  outline: transparent;
+  background-color: transparent;
+  color: #fff;
+}
+
+.footer-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-button .icon-svg {
+  fill: #fff;
+}
+
+.footer-button:hover {
+  background-color: #404bbf;
+}
+
 /* backdrop */
 
 .backdrop {
