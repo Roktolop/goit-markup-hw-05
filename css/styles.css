@@ -756,13 +756,17 @@ img {
   padding: 8px 16px;
   width: 360px;
   min-height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   resize: none;
 }
 
 .modal-user-comment::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
@@ -773,7 +777,7 @@ img {
   background-color: #404bbf;
 }
 
-.modal-check:checked .modal-checkbox {
+.modal-check:checked + .modal-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
